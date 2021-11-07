@@ -1,4 +1,0 @@
-<body background="#6bf8">
-<h1>PBSOD </h1>
-  <img style="width:50%;height:50%;" src="上海.jpg">
-</body>
