@@ -1,2 +1,2 @@
-# suntrise.github.io
-一个网站
+# STR的主页
+主页
