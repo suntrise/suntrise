@@ -1,0 +1,258 @@
+<body>
+<h1>伪本地化（Pseudolocalization）</h1>
+<textarea style="" id="pstype">
+Pseudolocalization Betawiki beta
+</textarea>
+<br><br>
+<div id="psshow"> </div>
+<br>
+<button style="height: 30px;width: 80px;" onclick="psloca()">伪本地化</button>
+</body>
+<style type="text/css">
+	body{
+		font-family: Segeo UI;
+		font-size: 20px;
+		background: #eee;
+	}
+	textarea{
+		width: 50%;
+		height: 200px;
+		font-family: Microsoft Yahei;
+		font-size: 20px;
+	}
+</style>
+<script type="text/javascript">
+var all = "";
+var str = ""
+var arra=["α","ä","á","à","ā","ā","ǎ","ǎ","ă","ă","å"]
+var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά"]
+var arrb=["ь","в","Ъ","Б","б"]
+var arrbb=["ß","฿"]
+var arrc=["c","ç","ς","ĉ","č","¢"]
+var arrcc=["Č","Ç","Ĉ","€"]
+var arrd=["d","ď","đ","₫","ð","δ"]
+var arrdd=["Ď","Ð"]
+var arre=["e","ē","é","ě","è","ê","ĕ","ë","з","ε","έ","э"]
+var arree=["E","Ē","É","Ě","È","Ĕ","Ё","Σ","Έ","Є","Э","З"]
+var arrf=["ƒ"]
+var arrff=["₣"]
+var arrg=["ģ"]
+var arrgg=["Ģ"]
+var arrh=["ħ","ђ","н"]
+var arrhh=["H"]
+var arri=["ı","ī","í","ǐ","ì","ĭ","î","ï","ί"]
+var arrii=["Ī","Í","Ǐ","Ì","Î","Ï","Ĭ","Ί"]
+var arrj=["j"]
+var arrjj=["J"]
+var arrk=["ƙ"]
+var arrkk=["К"]
+var arrl=["ŀ","ļ","ℓ"]
+var arrll=["Ŀ","£"]
+var arrm=["m","₥","м"]
+var arrmm=["M"]
+var arrn=["ń","ň","η","ή","и","й","ñ","л","п","π"]
+var arrnn=["Ń","Ň","И","Й","Π","Л"]
+var arro=["ō","ó","ŏ","ò","ô","õ","ö","ő","σ","ø","ǿ"]
+var arroo=["Ō","Ó","Ǒ","Ò","Ô","Õ","Ö","Ό","Θ","Ǿ"]
+var arrp=["p","ρ","Þ"]
+var arrpp=["P","Þ"]
+var arrq=[]
+var arrqq=[]
+var arrr=["ř","ŗ","г","ѓ","ґ","я"]
+var arrrr=["Г","Я"]
+var arrs=["ś","š","ŝ","ș","ş","ƨ"]
+var arrss=["Š","Ş","Ș","§"]
+var arrt=["ŧ","т","ț","ţ","ť"]
+var arrtt=["Ť","Ţ","Ț"]
+var arru=["ū","ú","ǔ","ù","û","ü","ǖ","ǘ","ǚ","ǜ","ύ","ϋ","ΰ","µ","ц"]
+var arruu=["Ū","Ǔ","Ǖ","Ǘ","Ǚ","Ǜ","Ц"]
+var arrv=["ν"]
+var arrvv=["V"]
+var arrw=["ẃ","ẁ","ẅ","ŵ","ш","щ"]
+var arrww=["Ẁ","Ẃ","Ẅ","Ŵ","Ш","Щ"]
+var arrx=["x","ж"]
+var arrxx=["X","Ж"]
+var arry=["У","ỳ","Ў","ŷ","Ч"]
+var arryy=["Ϋ","Ÿ","Ŷ","Ỳ","Ύ","Ψ","￥"]
+var arrz=["z"]
+var arrzz=["Z"]
+
+
+function psloca() {
+	all="";
+	str = pstype.value;
+    for (let i in str) {
+        var al = str[i];
+        if(al=="a"){
+          al=arra[Math.floor(Math.random()*11)]
+        }
+        if(al=="A"){
+          al=arraa[Math.floor(Math.random()*10)]
+        }
+        if(al=="b"){
+          al=arrb[Math.floor(Math.random()*5)]
+        }
+        if(al=="B"){
+          al=arrbb[Math.floor(Math.random()*2)]
+        }
+        if(al=="c"){
+          al=arrc[Math.floor(Math.random()*6)]
+        }
+        if(al=="C"){
+          al=arrcc[Math.floor(Math.random()*4)]
+        }
+        if(al=="d"){
+          al=arrd[Math.floor(Math.random()*6)]
+        }
+        if(al=="D"){
+          al=arrdd[Math.floor(Math.random()*1)]
+        }
+        if(al=="e"){
+          al=arre[Math.floor(Math.random()*10)]
+        }
+        if(al=="E"){
+          al=arree[Math.floor(Math.random()*11)]
+        }
+        if(al=="f"){
+          al=arrf[Math.floor(Math.random()*1)]
+        }
+        if(al=="F"){
+          al=arrff[Math.floor(Math.random()*1)]
+        }
+        if(al=="g"){
+          al=arrg[Math.floor(Math.random()*1)]
+        }
+        if(al=="G"){
+          al=arrgg[Math.floor(Math.random()*1)]
+        }
+        if(al=="h"){
+          al=arrh[Math.floor(Math.random()*3)]
+        }
+        if(al=="H"){
+          al=arrhh[Math.floor(Math.random()*1)]
+        }
+        if(al=="i"){
+          al=arri[Math.floor(Math.random()*9)]
+        }
+        if(al=="I"){
+          al=arrii[Math.floor(Math.random()*8)]
+        }
+        if(al=="j"){
+          al=arrj[Math.floor(Math.random()*1)]
+        }
+        if(al=="J"){
+          al=arrjj[Math.floor(Math.random()*1)]
+        }
+        if(al=="k"){
+          al=arrk[Math.floor(Math.random()*1)]
+        }
+        if(al=="K"){
+          al=arrkk[Math.floor(Math.random()*1)]
+        }
+        if(al=="l"){
+          al=arrl[Math.floor(Math.random()*3)]
+        }
+        if(al=="L"){
+          al=arrll[Math.floor(Math.random()*2)]
+        }
+        if(al=="m"){
+          al=arrm[Math.floor(Math.random()*3)]
+        }
+        if(al=="M"){
+          al=arrmm[Math.floor(Math.random()*1)]
+        }
+        if(al=="n"){
+          al=arrn[Math.floor(Math.random()*10)]
+        }
+        if(al=="N"){
+          al=arrnn[Math.floor(Math.random()*6)]
+        }
+        if(al=="o"){
+          al=arro[Math.floor(Math.random()*11)]
+        }
+        if(al=="O"){
+          al=arroo[Math.floor(Math.random()*10)]
+        }
+        if(al=="p"){
+          al=arrp[Math.floor(Math.random()*3)]
+        }
+        if(al=="P"){
+          al=arrpp[Math.floor(Math.random()*2)]
+        }
+        if(al=="r"){
+          al=arrr[Math.floor(Math.random()*6)]
+        }
+        if(al=="R"){
+          al=arrrr[Math.floor(Math.random()*2)]
+        }
+        if(al=="s"){
+          al=arrs[Math.floor(Math.random()*6)]
+        }
+        if(al=="S"){
+          al=arrss[Math.floor(Math.random()*4)]
+        }
+        if(al=="t"){
+          al=arrt[Math.floor(Math.random()*5)]
+        }
+        if(al=="T"){
+          al=arrtt[Math.floor(Math.random()*3)]
+        }
+        if(al=="u"){
+          al=arru[Math.floor(Math.random()*15)]
+        }
+        if(al=="U"){
+          al=arruu[Math.floor(Math.random()*7)]
+        }
+        if(al=="v"){
+          al=arrv[Math.floor(Math.random()*1)]
+        }
+        if(al=="V"){
+          al=arrvv[Math.floor(Math.random()*1)]
+        }
+        if(al=="w"){
+          al=arrw[Math.floor(Math.random()*6)]
+        }
+        if(al=="W"){
+          al=arrww[Math.floor(Math.random()*6)]
+        }
+        if(al=="x"){
+          al=arrx[Math.floor(Math.random()*2)]
+        }
+        if(al=="X"){
+          al=arrxx[Math.floor(Math.random()*2)]
+        }
+        if(al=="y"){
+          al=arry[Math.floor(Math.random()*6)]
+        }
+        if(al=="Y"){
+          al=arryy[Math.floor(Math.random()*7)]
+        }
+        if(al=="z"){
+          al=arrz[Math.floor(Math.random()*1)]
+        }
+        if(al=="Z"){
+          al=arrzz[Math.floor(Math.random()*1)]
+        }
+        if(al=="\n"){
+          al="<br>"
+        }
+        all += al;
+        psshow.innerHTML = all;
+    }	
+}
+//[nM3PG][Ťніš рдĝé çâň'т ьє ðįşрłåуèð !!! !!!]
+//•[rQLkE][Мǻќє şϋѓē τħέ ẅєв ăđďяêѕѕ http://go.microsoft.com їŝ ςöѓřéçτ. !!! !!! !!! !!! !!! !!! ]
+//•[QcPvG][Ŀσŏκ ƒσŗ ţћé ρâġě ẁīтн ÿőūŕ śзǻгĉђ ěñġĭиé. !!! !!! !!! ]
+//[mhdMp][Їŋтëгπėť Êхрŀǿѓëř !!! ]
+//•[D7lom][Ѓзƒřёšн ţћé ρåĝё ïŋ ą ƒ℮ẁ mίńųтєŝ. !!! !!! !]
+//[0g0lC][Яє¢ў¢ĺэ Ъĩл !!]
+//[1Dw2L][Čômрµτ℮ř !]
+//[WQqgE][£îъřǻгĩěş !!]\[j6LzE][Ďοĉúmзήтѕ !!]
+//[UgPsx][Мûšĩč !]
+//[umejJ][Рĩĉтμяėš !]
+//[GRWVo][Геςêпŧ ρĺǻсеś !!!]
+//[qiUe3][Ĉĥāřäĉťέґ Мãφ !!!]
+//[cQKjW][Ẅîηδоẅş Μєδίà Ρļªỳέґ !!! !]
+//[YJYSH][₣īĺе Єхрŀοŗ℮ř !!!]
+//[qu8UD][Ðöẁňļőªδîŉġ (υφδατé 1 ōƒ 1)...  !!! !!! !!! ]
+</script>
