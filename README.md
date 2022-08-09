@@ -1,9 +1,11 @@
 ## 欢迎！
 这里是 Suntrise 的主页
 
-### Jekyll Themes
+[GitHub 主页](https://github.com/suntrise/suntrise.github.io)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BSOD-Programming-Team/YesMyFault.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 项目
+* [YesMyFault(蓝屏生成器）](https://suntrise.github.io/YesMyFault.html)
+* [伪语言生成器](https://suntrise.github.io/pslo.html)
 
 ### Support or Contact
 
