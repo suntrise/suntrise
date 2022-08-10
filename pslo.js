@@ -1,6 +1,6 @@
 var all = "";
 var str = ""
-var arra=["α","ä","á","à","ā","ā","ǎ","ǎ","ă","ă","å"]
+var arra=["ä","ā","á","ǎ","à","ă","å","α"]
 var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ"]
 var arrb=["ь","в","Ъ","Б","б"]
 var arrbb=["ß","฿"]
@@ -60,7 +60,7 @@ function psloca() {
     for (let i in str) {
         var al = str[i];
         if(al=="a"){
-          al=arra[Math.floor(Math.random()*11)]
+          al=arra[Math.floor(Math.random()*8)]
         }
         if(al=="A"){
           al=arraa[Math.floor(Math.random()*11)]
