@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<title>Pseudolocalization</title>
+<body>
+<h1>Pseudo-localization Translater Demo By <a href="https://github.com/suntrise/suntrise.github.io/">STR</a></h1>
+<button onclick="notice.style.display='block'"><h3>What is Pseudo-localization？</h3></button>
+<br>
+<br>
+<textarea style="" id="pstype">
+</textarea>
+<br><br>
+<div id="psshow"> </div>
+<br>
+<button style="height: 50px;width: auto;" onclick="psloca()">Translate into pseudo language</button>
+<div class="notice" id="notice">
+Pseudolocalization (or ps-PS, qps-ploc, qps-plocm, qps-ploca) is a way to simulate the localization process. And by simulating the localization process, it is possible to effectively investigate the problems that occur in the localization (such as characters that cannot be displayed normally, or incomplete segment display due to too long strings, etc.).
+<br>
+During pseudo-localization, English letters are replaced with accents and characters from other scripts. 
+(For example, the letter a is replaced by any one of αäáàāāǎǎăăåå selected at random. ), separators etc. are also added to increase the string length.
+<br><br>
+For Example：“Windows Photo Gallery” → “ [1iaT9][ Ẅĭпðøωś Þнôтŏ Ģάŀļєяÿ !!! !] ”
+<center><button style="position: absolute;bottom: 5%;" onclick="notice.style.display='none'">Close</button></center>
+</div>
+</body>
+<style type="text/css">
+  body{
+    font-family: Segeo UI;
+    font-size: 20px;
+    background: #eee;
+  }
+  textarea{
+    width: 50%;
+    height: 200px;
+    font-family: Microsoft Yahei;
+    font-size: 20px;
+  }
+  .notice{
+    position: absolute;
+    top: 13%;
+    height: 50%;
+    width: 60%;
+    display: none;
+    border: 5px solid #07d;
+    background: #fff;
+  }
+</style>
+<script type="text/javascript" src="pslo.js"></script>
