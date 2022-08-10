@@ -213,6 +213,11 @@ function psloca() {
           al="<br>"
         }
         all += al;
-        psshow.innerHTML = all;
+        if (bracket.checked) {
+         psshow.innerHTML = "[!!! "+ all +" !!!]"; 
+        }
+        else{psshow.innerHTML = all;
+        }
+        
     } 
 }
