@@ -7,7 +7,8 @@
 * [YesMyFault(蓝屏生成器）](https://suntrise.github.io/YesMyFault.html)
 * [伪本地化转换器](https://suntrise.github.io/pslo.html)
 * 模拟一些 Windows 系统 OOBE 的最后部署阶段的动画：
-（[Windows 8 OOBE](https://suntrise.github.io/Win8OOBE.html)
+
+（[Windows 8 OOBE](https://suntrise.github.io/Win8OOBE.html), 
 [Windows 10 OOBE](https://suntrise.github.io/Win8OOBE.html)）
 
 ### 支持或联系
