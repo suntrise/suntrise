@@ -9,23 +9,23 @@
 <button style="height: 30px;width: 80px;" onclick="psloca()">伪本地化</button>
 </body>
 <style type="text/css">
-	body{
-		font-family: Segeo UI;
-		font-size: 20px;
-		background: #eee;
-	}
-	textarea{
-		width: 50%;
-		height: 200px;
-		font-family: Microsoft Yahei;
-		font-size: 20px;
-	}
+  body{
+    font-family: Segeo UI;
+    font-size: 20px;
+    background: #eee;
+  }
+  textarea{
+    width: 50%;
+    height: 200px;
+    font-family: Microsoft Yahei;
+    font-size: 20px;
+  }
 </style>
 <script type="text/javascript">
 var all = "";
 var str = ""
 var arra=["α","ä","á","à","ā","ā","ǎ","ǎ","ă","ă","å"]
-var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά"]
+var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ"]
 var arrb=["ь","в","Ъ","Б","б"]
 var arrbb=["ß","฿"]
 var arrc=["c","ç","ς","ĉ","č","¢"]
@@ -68,7 +68,7 @@ var arru=["ū","ú","ǔ","ù","û","ü","ǖ","ǘ","ǚ","ǜ","ύ","ϋ","ΰ","µ",
 var arruu=["Ū","Ǔ","Ǖ","Ǘ","Ǚ","Ǜ","Ц"]
 var arrv=["ν"]
 var arrvv=["V"]
-var arrw=["ẃ","ẁ","ẅ","ŵ","ш","щ"]
+var arrw=["ẃ","ẁ","ẅ","ŵ","ш","щ","ώ"]
 var arrww=["Ẁ","Ẃ","Ẅ","Ŵ","Ш","Щ"]
 var arrx=["x","ж"]
 var arrxx=["X","Ж"]
@@ -79,15 +79,15 @@ var arrzz=["Z"]
 
 
 function psloca() {
-	all="";
-	str = pstype.value;
+  all="";
+  str = pstype.value;
     for (let i in str) {
         var al = str[i];
         if(al=="a"){
           al=arra[Math.floor(Math.random()*11)]
         }
         if(al=="A"){
-          al=arraa[Math.floor(Math.random()*10)]
+          al=arraa[Math.floor(Math.random()*11)]
         }
         if(al=="b"){
           al=arrb[Math.floor(Math.random()*5)]
@@ -210,7 +210,7 @@ function psloca() {
           al=arrvv[Math.floor(Math.random()*1)]
         }
         if(al=="w"){
-          al=arrw[Math.floor(Math.random()*6)]
+          al=arrw[Math.floor(Math.random()*7)]
         }
         if(al=="W"){
           al=arrww[Math.floor(Math.random()*6)]
@@ -238,6 +238,6 @@ function psloca() {
         }
         all += al;
         psshow.innerHTML = all;
-    }	
+    } 
 }
 </script>
