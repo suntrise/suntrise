@@ -1,4 +1,4 @@
-## 欢迎！
+## 欢迎！| Suntrise (Also STR)
 这里是 Suntrise 的主页
 
 [GitHub 主页](https://github.com/suntrise/suntrise.github.io)
