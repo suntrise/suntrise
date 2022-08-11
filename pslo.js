@@ -220,10 +220,10 @@ function psloca() {
         all += al; 
         alll = all;
 function bracketfun() {
-   while(n<((i/7)+1)){
+   while(n<(i/7)){
         n++
         gth=gth+"!"  
-        if (n%3==0 && n!=(Math.floor(i/7)+1) {
+        if (n%3==0 && n!=(Math.floor(i/7)+1)) {
           gth=gth+" ";
         } 
         } 
