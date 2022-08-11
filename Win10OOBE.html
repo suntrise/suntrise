@@ -18,6 +18,17 @@
         animation: oobe 5s linear infinite 5s ;
 
      }
+	#oobeend{
+		display: none;;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        background: #000;
+        cursor: none;
+        }
      @keyframes oobe{
       0%   {
         background:#00498B;
@@ -40,6 +51,7 @@
       text-align: center;
       font-size: 50px;
       animation: oobe0 2s infinite 1s;
+      z-index: 1000;
      }
      #oobeword1{
       position: absolute;
@@ -51,6 +63,7 @@
       text-align: center;
       font-size: 50px;
       animation: oobe1 30s infinite 5s;
+      z-index: 1000;
      }
     #oobeword2{
       position: absolute;
@@ -61,7 +74,7 @@
       font-weight: 100;
       text-align: center;
       font-size: 30px;
-      animation: oobe1 30s infinite 5s;
+      z-index: 1000;
      }
     @keyframes oobe1{
       0%{
@@ -90,6 +103,7 @@
 <span id="oobeword1"></span>
 <span id="oobeword2"></span>
 </div>
+<div id="oobeend"></div>
   </body>
 
 </html>
@@ -110,7 +124,7 @@
       oobeword2.innerHTML="请勿™关闭电脑。"
       oobeword01.innerHTML=""
      oobeword02.innerHTML=""
-      oobeword1.innerHTML="这可能需要亿分钟"
+      oobeword1.innerHTML="这可能需要几世纪"
     }
     if (oobesec>=35) {
       oobeword1.innerHTML="一切交给我们来处理"
@@ -124,6 +138,7 @@
   if (oobesec>=95) {
       oobeword1.innerHTML="马上就好"
       oobeword2.innerHTML=""
+      oobeend.style.display="block";
     }  
     if (oobesec>=100) {
        location.reload() 
