@@ -1,7 +1,9 @@
 var all = "";
+var alll = "";
 var str = ""
 var gth="";
-var n=0;
+var hashid=""
+var m=n=0;
 var arra=["ä","ā","á","ǎ","à","ă","å","α","ά"]
 var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ"]
 var arrb=["ь","в","Ъ","Б","б"]
@@ -54,10 +56,11 @@ var arry=["y","ỳ","ŷ","ч"]
 var arryy=["Ϋ","Ÿ","Ŷ","Ỳ","Ύ","Ψ","￥","У","Ў","Ч"]
 var arrz=["z"]
 var arrzz=["Z"]
-
+var arral=["A","a","B","b","C","c","D","d","E","e","F","f","G","g","H","h","I","i","J","j","K","k","L","l","M","m","N","n","O","o","P","p","Q","q","R","r","S","s","T","t","U","u","V","v","W","w","X","x","Y","y","Z","z","1","2","3","4","5","6","7","8","9","0"]
 
 function psloca() {
   all="";
+  i=0;
   str = pstype.value;
     for (let i in str) {
         var al = str[i];
@@ -215,22 +218,35 @@ function psloca() {
           al="<br>"
         }
         all += al; 
-        if (bracket.checked) {
-        while(n<=i/3){
-        gth=gth+"!"     
+        alll = all;
+function bracketfun() {
+   while(n<(i/3)){
         n++
-        if (n%3==0 && n!=Math.floor(1/3)) {
-          gth=gth+" "
+        gth=gth+"!"  
+        if (n%3==0 && n!=Math.floor(i/3)) {
+          gth=gth+" ";
         } 
+        } 
+        alll = "["+ all +" " +gth +"]";  
+        n=0;
+        gth="";
+}
+        if (bracket.checked) {
+          bracketfun()
         }
-        psshow.innerHTML = "["+ all +" " +gth +"]" ;  
-        if (n==Math.floor(1/3)) {
-            n=0
-            gth="";
+        if (front.checked) {
+        bracketfun()
+        while(m<5){
+          m++
+          hashid = hashid + arral[Math.floor(Math.random()*62)]
         }
+        alll="[" + hashid +"]" +alll;  
+        hashid="";
+        m=0;
         }
         else{
-          psshow.innerHTML = all;
+          alll=alll;
         }
+        psshow.innerHTML = alll;
       }
 }
