@@ -18,6 +18,17 @@
         animation: oobe 20s linear infinite 5s ;
 
      }
+    #oobeend{
+    display: none;;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        background: #000;
+        cursor: none;
+        }
      @keyframes oobe{
       0%   {
         background:green;
@@ -73,7 +84,6 @@
       font-weight: 100;
       text-align: center;
       font-size: 30px;
-      animation: oobe1 60s infinite 5s;
      }
     @keyframes oobe1{
       0%{
@@ -130,6 +140,7 @@
   if (oobesec>=125) {
       oobeword1.innerHTML="请尽情使用吧"
       oobeword2.innerHTML=""
+      oobeend.style.display="block";
     }  
     if (oobesec>=130) {
        location.reload() 
