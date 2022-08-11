@@ -224,7 +224,7 @@ function psloca() {
           gth=gth+" "
         } 
         }
-        psshow.innerHTML = "[ "+ all +" " +gth +"]" ;  
+        psshow.innerHTML = "["+ all +" " +gth +"]" ;  
         if (n==Math.floor(1/3)) {
             n=0
         }
