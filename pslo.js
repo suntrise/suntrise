@@ -220,7 +220,7 @@ function psloca() {
         while(n<=i/3){
         gth=gth+"!"     
         n++
-        if (n%3==0 && n==Math.floor(1/3)) {
+        if (n%3==0 && n!=Math.floor(1/3)) {
           gth=gth+" "
         } 
         }
