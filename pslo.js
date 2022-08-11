@@ -1,5 +1,4 @@
 var all = "";
-var alll = "";
 var str = ""
 var gth="";
 var n=0;
@@ -227,6 +226,7 @@ function psloca() {
         psshow.innerHTML = "["+ all +" " +gth +"]" ;  
         if (n==Math.floor(1/3)) {
             n=0
+            gth="";
         }
         }
         else{
