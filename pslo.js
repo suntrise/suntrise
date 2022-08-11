@@ -1,5 +1,8 @@
 var all = "";
+var alll = "";
 var str = ""
+var gth="";
+var n=0;
 var arra=["ä","ā","á","ǎ","à","ă","å","α","ά"]
 var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ"]
 var arrb=["ь","в","Ъ","Б","б"]
@@ -212,12 +215,22 @@ function psloca() {
         if(al=="\n"){
           al="<br>"
         }
-        all += al;
+        all += al; 
         if (bracket.checked) {
-         psshow.innerHTML = "[!!! "+ all +" !!!]"; 
+        while(n<=i/3){
+        gth=gth+"!"     
+        n++
+        if (n%3==0 && n==Math.floor(1/3)) {
+          gth=gth+" "
+        } 
         }
-        else{psshow.innerHTML = all;
+        psshow.innerHTML = "[ "+ all +" " +gth +"]" ;  
+        if (n==Math.floor(1/3)) {
+            n=0
         }
-        
-    } 
+        }
+        else{
+          psshow.innerHTML = all;
+        }
+      }
 }
