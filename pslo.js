@@ -14,7 +14,7 @@ var arrd=["d","ď","đ","₫","ð","δ"]
 var arrdd=["Ď","Ð"]
 var arre=["e","ē","é","ě","è","ê","ĕ","ë","з","ε","έ","э"]
 var arree=["E","Ē","É","Ě","È","Ĕ","Ё","Σ","Έ","Є","Э","З"]
-var arrf=["ƒ"]
+var arrf=["f","ƒ"]
 var arrff=["₣"]
 var arrg=["ģ"]
 var arrgg=["Ģ"]
@@ -23,7 +23,7 @@ var arrhh=["H"]
 var arri=["ı","ī","í","ǐ","ì","ĭ","î","ï","ί"]
 var arrii=["Ī","Í","Ǐ","Ì","Î","Ï","Ĭ","Ί"]
 var arrj=["j"]
-var arrjj=["J"]
+var arrjj=["J","Ĵ"]
 var arrk=["ƙ"]
 var arrkk=["К"]
 var arrl=["ŀ","ļ","ℓ"]
@@ -40,10 +40,10 @@ var arrq=[]
 var arrqq=[]
 var arrr=["ř","ŗ","г","ѓ","ґ","я"]
 var arrrr=["Г","Я"]
-var arrs=["ś","š","ŝ","ș","ş"]
+var arrs=["ś","š","ŝ","ș","ş","ƨ"]
 var arrss=["Š","Ş","Ș","§"]
 var arrt=["ŧ","т","ț","ţ","ť"]
-var arrtt=["Ť","Ţ","Ț"]
+var arrtt=["Ť","Ţ","Ț","Ŧ"]
 var arru=["ū","ú","ǔ","ù","û","ü","ǖ","ǘ","ǚ","ǜ","ύ","ϋ","ΰ","µ","ц"]
 var arruu=["Ū","Ǔ","Ǖ","Ǘ","Ǚ","Ǜ","Ц"]
 var arrv=["ν"]
@@ -95,7 +95,7 @@ function psloca() {
           al=arree[Math.floor(Math.random()*11)]
         }
         if(al=="f"){
-          al=arrf[Math.floor(Math.random()*1)]
+          al=arrf[Math.floor(Math.random()*2)]
         }
         if(al=="F"){
           al=arrff[Math.floor(Math.random()*1)]
@@ -122,7 +122,7 @@ function psloca() {
           al=arrj[Math.floor(Math.random()*1)]
         }
         if(al=="J"){
-          al=arrjj[Math.floor(Math.random()*1)]
+          al=arrjj[Math.floor(Math.random()*2)]
         }
         if(al=="k"){
           al=arrk[Math.floor(Math.random()*1)]
@@ -167,7 +167,7 @@ function psloca() {
           al=arrrr[Math.floor(Math.random()*2)]
         }
         if(al=="s"){
-          al=arrs[Math.floor(Math.random()*4)]
+          al=arrs[Math.floor(Math.random()*6)]
         }
         if(al=="S"){
           al=arrss[Math.floor(Math.random()*4)]
@@ -176,7 +176,7 @@ function psloca() {
           al=arrt[Math.floor(Math.random()*5)]
         }
         if(al=="T"){
-          al=arrtt[Math.floor(Math.random()*3)]
+          al=arrtt[Math.floor(Math.random()*4)]
         }
         if(al=="u"){
           al=arru[Math.floor(Math.random()*15)]
