@@ -4,9 +4,9 @@ var str = ""
 var gth="";
 var hashid=""
 var m=n=0;
-var arra=["ä","ā","á","ǎ","à","ă","å","α","ά"]
-var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ"]
-var arrb=["ь","в","Ъ","Б","б"]
+var arra=["ä","ā","á","ǎ","à","ă","å","α","ά","ɑ"]
+var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ","Ɑ"]
+var arrb=["ь","в","Ъ","Б","б","β"]
 var arrbb=["ß","฿"]
 var arrc=["c","ç","ς","ĉ","č","¢"]
 var arrcc=["Č","Ç","Ĉ","€"]
@@ -36,8 +36,8 @@ var arro=["ō","ó","ŏ","ò","ô","õ","ö","ő","σ","ø","ǿ"]
 var arroo=["Ō","Ó","Ǒ","Ò","Ô","Õ","Ö","Ό","Θ","Ǿ"]
 var arrp=["p","ρ","ƥ"]
 var arrpp=["P","Þ"]
-var arrq=[]
-var arrqq=[]
+var arrq=["ʠ", "ɋ"]
+var arrqq=["Ɋ"]
 var arrr=["ř","ŗ","г","ѓ","ґ","я"]
 var arrrr=["Г","Я"]
 var arrs=["ś","š","ŝ","ș","ş","ƨ"]
@@ -56,6 +56,8 @@ var arry=["y","ỳ","ŷ","ч"]
 var arryy=["Ϋ","Ÿ","Ŷ","Ỳ","Ύ","Ψ","￥","У","Ў","Ч"]
 var arrz=["z"]
 var arrzz=["Z"]
+// var arr2=["↊"] 字体缺少
+// var arr3=["↋"] 字体缺少
 var arral=["A","a","B","b","C","c","D","d","E","e","F","f","G","g","H","h","I","i","J","j","K","k","L","l","M","m","N","n","O","o","P","p","Q","q","R","r","S","s","T","t","U","u","V","v","W","w","X","x","Y","y","Z","z","1","2","3","4","5","6","7","8","9","0"]
 
 function psloca() {
@@ -65,13 +67,13 @@ function psloca() {
     for (let i in str) {
         var al = str[i];
         if(al=="a"){
-          al=arra[Math.floor(Math.random()*9)]
+          al=arra[Math.floor(Math.random()*10)]
         }
         if(al=="A"){
-          al=arraa[Math.floor(Math.random()*11)]
+          al=arraa[Math.floor(Math.random()*12)]
         }
         if(al=="b"){
-          al=arrb[Math.floor(Math.random()*5)]
+          al=arrb[Math.floor(Math.random()*6)]
         }
         if(al=="B"){
           al=arrbb[Math.floor(Math.random()*2)]
@@ -159,6 +161,12 @@ function psloca() {
         }
         if(al=="P"){
           al=arrpp[Math.floor(Math.random()*2)]
+        }
+        if(al=="q"){
+          al=arrq[Math.floor(Math.random()*2)]
+        }
+        if(al=="Q"){
+          al=arrqq[Math.floor(Math.random()*1)]
         }
         if(al=="r"){
           al=arrr[Math.floor(Math.random()*6)]
