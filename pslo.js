@@ -12,7 +12,7 @@ var arrc=["c","ç","ς","ĉ","č","¢"]
 var arrcc=["Č","Ç","Ĉ","€"]
 var arrd=["d","ď","đ","₫","ð","δ"]
 var arrdd=["Ď","Ð"]
-var arre=["e","ē","é","ě","è","ê","ĕ","ë","з","ε","έ","э"]
+var arre=["e","ē","é","ě","è","ê","ĕ","ë","з","ε","έ","э","℮"]
 var arree=["E","Ē","É","Ě","È","Ĕ","Ё","Σ","Έ","Є","Э","З"]
 var arrf=["f","ƒ"]
 var arrff=["₣"]
@@ -91,7 +91,7 @@ function psloca() {
           al=arrdd[Math.floor(Math.random()*1)]
         }
         if(al=="e"){
-          al=arre[Math.floor(Math.random()*10)]
+          al=arre[Math.floor(Math.random()*11)]
         }
         if(al=="E"){
           al=arree[Math.floor(Math.random()*11)]
