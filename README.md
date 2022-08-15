@@ -3,6 +3,7 @@
 ### [GitHub 主页](https://github.com/suntrise/suntrise.github.io)
 
 ### 项目
+* [一个Linux看了觉得很正常，但是Windows和DOS看了会非常开心的压缩包](https://suntrise.github.io/happydos.tgz)
 * [YesMyFault(蓝屏生成器）](https://suntrise.github.io/YesMyFault.html)
 * [伪本地化翻译器 Demo](https://suntrise.github.io/pslo.html)
 * 模拟一些 Windows 系统 OOBE 的最后部署阶段的动画
