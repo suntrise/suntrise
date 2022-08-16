@@ -5,7 +5,7 @@ var gth="";
 var hashid=""
 var m=n=0;
 var arra=["ä","ā","á","ǎ","à","ă","å","α","ά","ɑ"]
-var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ","Ɑ"]
+var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ"]
 var arrb=["ь","в","Ъ","Б","б","β"]
 var arrbb=["ß","฿"]
 var arrc=["c","ç","ς","ĉ","č","¢"]
@@ -70,7 +70,7 @@ function psloca() {
           al=arra[Math.floor(Math.random()*10)]
         }
         if(al=="A"){
-          al=arraa[Math.floor(Math.random()*12)]
+          al=arraa[Math.floor(Math.random()*11)]
         }
         if(al=="b"){
           al=arrb[Math.floor(Math.random()*6)]
