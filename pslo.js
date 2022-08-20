@@ -55,7 +55,7 @@ var arrxx=["X","Ж"]
 var arry=["y","ỳ","ŷ","ч"]
 var arryy=["Ϋ","Ÿ","Ŷ","Ỳ","Ύ","Ψ","￥","У","Ў","Ч"]
 var arrz=["z"]
-var arrzz=["Z"]
+var arrzz=["Z","Ź","Ż","Ž","Ƶ","Ȥ","Ẓ","Ẕ","Ẑ","Ⱬ"]
 // var arr2=["↊"] 字体缺少
 // var arr3=["↋"] 字体缺少
 var arral=["A","a","B","b","C","c","D","d","E","e","F","f","G","g","H","h","I","i","J","j","K","k","L","l","M","m","N","n","O","o","P","p","Q","q","R","r","S","s","T","t","U","u","V","v","W","w","X","x","Y","y","Z","z","1","2","3","4","5","6","7","8","9","0"]
@@ -220,7 +220,7 @@ function psloca() {
           al=arrz[Math.floor(Math.random()*1)]
         }
         if(al=="Z"){
-          al=arrzz[Math.floor(Math.random()*1)]
+          al=arrzz[Math.floor(Math.random()*10)]
         }
         if(al=="\n"){
           al="<br>"
