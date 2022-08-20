@@ -34,8 +34,8 @@ var arrn=["ń","ň","η","ή","и","й","ñ","л","п","π"]
 var arrnn=["Ń","Ň","И","Й","Π","Л"]
 var arro=["ō","ó","ŏ","ò","ô","õ","ö","ő","σ","ø","ǿ"]
 var arroo=["Ō","Ó","Ǒ","Ò","Ô","Õ","Ö","Ό","Θ","Ǿ"]
-var arrp=["p","ρ","ƥ"]
-var arrpp=["P","Þ"]
+var arrp=["p","ρ","ƥ","φ"]
+var arrpp=["P","Þ","₽"]
 var arrq=["q","ʠ", "ɋ"]
 var arrqq=["Q","Ɋ"]
 var arrr=["ř","ŗ","г","ѓ","ґ","я"]
@@ -157,10 +157,10 @@ function psloca() {
           al=arroo[Math.floor(Math.random()*10)]
         }
         if(al=="p"){
-          al=arrp[Math.floor(Math.random()*3)]
+          al=arrp[Math.floor(Math.random()*4)]
         }
         if(al=="P"){
-          al=arrpp[Math.floor(Math.random()*2)]
+          al=arrpp[Math.floor(Math.random()*3)]
         }
         if(al=="q"){
           al=arrq[Math.floor(Math.random()*3)]
