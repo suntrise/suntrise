@@ -8,26 +8,26 @@ var arra=["ä","ā","á","ǎ","à","ă","å","ǻ","α","ά","ɑ"]
 var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ","Λ","Д","Ą"]
 var arrb=["ь","в","Ъ","Б","б","β"]
 var arrbb=["ß","฿"]
-var arrc=["c","ç","ς","ĉ","č","¢"]
+var arrc=["c","ç","ς","ĉ","č","ċ","¢"]
 var arrcc=["Č","Ç","Ĉ","€"]
 var arrd=["d","ď","đ","₫","ð","δ"]
 var arrdd=["Ď","Ð"]
-var arre=["e","ē","é","ě","è","ê","ĕ","ë","з","ε","έ","э","℮"]
+var arre=["e","ē","é","ě","è","ê","ĕ","ė","ë","з","ε","έ","э","℮"]
 var arree=["E","Ē","É","Ě","È","Ĕ","Ё","Σ","Έ","Є","Э","З"]
 var arrf=["f","ƒ"]
 var arrff=["F","₣"]
 var arrg=["ḡ","ģ","ǧ","ĝ","ğ","ġ","ǥ","ǵ","ɠ","ᶃ","ꞡ"]
 var arrgg=["Ḡ","Ǵ","Ǧ","Ĝ","Ğ","Ģ","Ġ","Ɠ","Ǥ","Ꞡ"]
-var arrh=["ħ","ђ","н"]
-var arrhh=["H"]
-var arri=["ı","ī","í","ǐ","ì","ĭ","î","ï","ί","į"]
+var arrh=["ĥ","ħ","ђ","н"]
+var arrhh=["H","Ħ"]
+var arri=["ı","ī","í","ǐ","ì","ĭ","î","ï","ί","į","ΐ"]
 var arrii=["Ī","Í","Ǐ","Ì","Î","Ï","Ĭ","Ί"]
 var arrj=["j"]
 var arrjj=["J","Ĵ"]
 var arrk=["ƙ","κ"]
 var arrkk=["К"]
 var arrl=["ŀ","ļ","ℓ","ĺ","ļ","ł","ι"]
-var arrll=["Ŀ","£","Ļ"]
+var arrll=["Ŀ","£","Ļ","Ł"]
 var arrm=["m","₥","м"]
 var arrmm=["M"]
 var arrn=["ń","ň","η","ή","и","й","ñ","л","п","π"]
@@ -42,9 +42,9 @@ var arrr=["ř","ŗ","г","ѓ","ґ","я"]
 var arrrr=["Ř","Я","Г","Ґ"]
 var arrs=["ś","š","ŝ","ș","ş","ƨ"]
 var arrss=["Š","Ş","Ș","§"]
-var arrt=["ŧ","т","ț","ţ","ť"]
+var arrt=["ț","ţ","ť","ŧ","т","τ"]
 var arrtt=["Ť","Ţ","Ț","Ŧ"]
-var arru=["ū","ú","ǔ","ù","û","ü","ǖ","ǘ","ǚ","ǜ","ύ","ϋ","ΰ","µ","ц","џ"]
+var arru=["ū","ú","ǔ","ù","û","ũ","ų","ü","ǖ","ǘ","ǚ","ǜ","ύ","ϋ","ΰ","µ","ц","џ"]
 var arruu=["Ū","Ǔ","Ǖ","Ǘ","Ǚ","Ǜ","Ц"]
 var arrv=["ν"]
 var arrvv=["V","V","Ṽ","Ṿ","Ꝟ"]
@@ -79,7 +79,7 @@ function psloca() {
           al=arrbb[Math.floor(Math.random()*2)]
         }
         if(al=="c"){
-          al=arrc[Math.floor(Math.random()*6)]
+          al=arrc[Math.floor(Math.random()*7)]
         }
         if(al=="C"){
           al=arrcc[Math.floor(Math.random()*4)]
@@ -91,7 +91,7 @@ function psloca() {
           al=arrdd[Math.floor(Math.random()*1)]
         }
         if(al=="e"){
-          al=arre[Math.floor(Math.random()*11)]
+          al=arre[Math.floor(Math.random()*12)]
         }
         if(al=="E"){
           al=arree[Math.floor(Math.random()*11)]
@@ -109,13 +109,13 @@ function psloca() {
           al=arrgg[Math.floor(Math.random()*10)]
         }
         if(al=="h"){
-          al=arrh[Math.floor(Math.random()*3)]
+          al=arrh[Math.floor(Math.random()*4)]
         }
         if(al=="H"){
           al=arrhh[Math.floor(Math.random()*1)]
         }
         if(al=="i"){
-          al=arri[Math.floor(Math.random()*9)]
+          al=arri[Math.floor(Math.random()*10)]
         }
         if(al=="I"){
           al=arrii[Math.floor(Math.random()*8)]
@@ -136,7 +136,7 @@ function psloca() {
           al=arrl[Math.floor(Math.random()*7)]
         }
         if(al=="L"){
-          al=arrll[Math.floor(Math.random()*3)]
+          al=arrll[Math.floor(Math.random()*4)]
         }
         if(al=="m"){
           al=arrm[Math.floor(Math.random()*3)]
@@ -181,13 +181,13 @@ function psloca() {
           al=arrss[Math.floor(Math.random()*4)]
         }
         if(al=="t"){
-          al=arrt[Math.floor(Math.random()*5)]
+          al=arrt[Math.floor(Math.random()*6)]
         }
         if(al=="T"){
           al=arrtt[Math.floor(Math.random()*4)]
         }
         if(al=="u"){
-          al=arru[Math.floor(Math.random()*16)]
+          al=arru[Math.floor(Math.random()*18)]
         }
         if(al=="U"){
           al=arruu[Math.floor(Math.random()*7)]
