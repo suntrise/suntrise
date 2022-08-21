@@ -4,15 +4,15 @@ var str = ""
 var gth="";
 var hashid=""
 var m=n=0;
-var arra=["ä","ā","á","ǎ","à","ă","å","ǻ","α","ά","ɑ"]
+var arra=["ä","ā","á","ǎ","à","ă","å","ǻ","ǟ","ǡ","ǻ","ȁ","ȃ","ȧ","ɑ","ᶏ","ḁ","ẚ","ạ","ả","ấ","ầ","ẩ","ẫ","ậ","ắ","ằ","ẳ","ẵ","ặ","α","ά","ἀ","ἁ","ἂ","ἃ","ἄ","ἅ","ἆ","ἇ","ὰ","ᾀ","ᾁ","ᾂ","ᾃ","ᾄ","ᾅ","ᾆ","ᾇ","ᾰ","ᾱ","ᾲ","ᾳ","ᾴ","ᾶ","ᾷ","ⱥ","𐓘","𐓙","𐓚"]
 var arraa=["Ā","Á","Ǎ","À","Â","Ã","Ä","Å","Ǻ","Ά","Δ","Λ","Д","Ą"]
 var arrb=["ь","в","Ъ","Б","б","β"]
 var arrbb=["ß","฿"]
 var arrc=["c","ç","ς","ĉ","č","ċ","¢"]
-var arrcc=["Č","Ç","Ĉ","€"]
+var arrcc=["Č","Ç","Ĉ","Ć","€"]
 var arrd=["d","ď","đ","₫","ð","δ"]
 var arrdd=["Ď","Ð"]
-var arre=["e","ē","é","ě","è","ê","ĕ","ė","ë","з","ε","έ","э","℮"]
+var arre=["e","ē","é","ě","è","ê","ĕ","ė","ë","ę","з","ε","έ","э","℮"]
 var arree=["E","Ē","É","Ě","È","Ĕ","Ё","Σ","Έ","Є","Э","З"]
 var arrf=["f","ƒ"]
 var arrff=["F","₣"]
@@ -67,7 +67,7 @@ function psloca() {
     for (let i in str) {
         var al = str[i];
         if(al=="a"){
-          al=arra[Math.floor(Math.random()*11)]
+          al=arra[Math.floor(Math.random()*45)]
         }
         if(al=="A"){
           al=arraa[Math.floor(Math.random()*14)]
@@ -82,7 +82,7 @@ function psloca() {
           al=arrc[Math.floor(Math.random()*7)]
         }
         if(al=="C"){
-          al=arrcc[Math.floor(Math.random()*4)]
+          al=arrcc[Math.floor(Math.random()*5)]
         }
         if(al=="d"){
           al=arrd[Math.floor(Math.random()*6)]
@@ -91,7 +91,7 @@ function psloca() {
           al=arrdd[Math.floor(Math.random()*1)]
         }
         if(al=="e"){
-          al=arre[Math.floor(Math.random()*12)]
+          al=arre[Math.floor(Math.random()*15)]
         }
         if(al=="E"){
           al=arree[Math.floor(Math.random()*11)]
