@@ -26,7 +26,7 @@ var arrj=["j"]
 var arrjj=["J","Ĵ"]
 var arrk=["ƙ","κ"]
 var arrkk=["К"]
-var arrl=["ŀ","ļ","ℓ","ĺ","ļ","ł","ι"]
+var arrl=["ŀ","ļ","ℓ","ĺ","ļ","ľ","ł","ι"]
 var arrll=["Ŀ","£","Ļ","Ł"]
 var arrm=["m","₥","м"]
 var arrmm=["M"]
@@ -133,7 +133,7 @@ function psloca() {
           al=arrkk[Math.floor(Math.random()*1)]
         }
         if(al=="l"){
-          al=arrl[Math.floor(Math.random()*7)]
+          al=arrl[Math.floor(Math.random()*8)]
         }
         if(al=="L"){
           al=arrll[Math.floor(Math.random()*4)]
