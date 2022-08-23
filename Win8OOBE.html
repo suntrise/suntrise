@@ -177,7 +177,7 @@
             console.log(window.temp_i);
             if (window.temp_i == 100) {
                 window.temp_i = 100;
-                setTimeout("changertp6();", 30000);
+                setTimeout("changertp6();", 60000);
                 return 0;
             }
             setTimeout("changertp5();", 12);
@@ -231,12 +231,36 @@
             setTimeout("changertp9();", 12);
         }
         function changertp10() {
-            alert("Unexpected Error\nWindows not installed.");
             location.reload();
         }
         window.temp_i = 0;
         oobeword01.innerHTML = "你好"
         oobeword01.style.display = "block";
         changertp();
+        /*
+        if (window.rtsecond >= 5) {
+            //oobeword1.innerHTML="苟利PC生死以，岂因bug避趋之<br>这些更新能为你提供更多的bug"
+            oobeword2.innerHTML = "请勿™关闭电脑。"
+            oobeword01.innerHTML = ""
+            oobeword02.innerHTML = ""
+            oobeword1.innerHTML = "这可能需要几世纪"
+        }
+        if (window.rtsecond >= 35) {
+            oobeword1.innerHTML = "一切交给我们来处理"
+            oobeword2.innerHTML = "请勿™关闭电脑。"
+        }
+        if (window.rtsecond >= 65) {
+            oobeword1.innerHTML = "千门万户曈曈日，总把新桃换旧符<br>Windows将保持bug最多状态，为你的网络之旅设置障碍"
+            oobeword2.innerHTML = "请勿™关闭电脑。"
+        }
+
+        if (window.rtsecond >= 95) {
+            oobeword1.innerHTML = "马上就好"
+            oobeword2.innerHTML = ""
+            oobeend.style.display = "block";
+        }
+        if (window.rtsecond >= 100) {
+            location.reload()
+        }*/
     </script>
 </body>
