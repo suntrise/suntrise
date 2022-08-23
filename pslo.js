@@ -230,7 +230,7 @@ function psloca() {
 function bracketfun() {
    while (n<(i/7)){
         n++;
-        if (i!=0){
+        if (i>2){
           gth=gth+"!";
         }
         else{
