@@ -228,9 +228,15 @@ function psloca() {
         all += al; 
         alll = all;
 function bracketfun() {
-   while(n<(i/7)){
-        n++
-        gth=gth+"!"  
+   while (n<(i/7)){
+        n++;
+        if (i!=0){
+          gth=gth+"!";
+        }
+        else{
+          gth=gth+" ";
+          break;
+        }
         if (n%3==0 && n!=(Math.floor(i/7)+1)) {
           gth=gth+" ";
         } 
