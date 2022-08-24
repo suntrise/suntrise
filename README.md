@@ -3,8 +3,8 @@
 ### [GitHub 主页](https://github.com/suntrise/suntrise.github.io)
 
 ### 项目
-* [YesMyFault(蓝屏生成器）](https://suntrise.github.io/YesMyFault.html)
-* [伪本地化翻译器 Demo](https://suntrise.github.io/pslo.html)
+* [YesMyFault(蓝屏生成器）](https://suntrise.github.io/yesmyfault)
+* [伪本地化翻译器 Demo](https://suntrise.github.io/pseudo)
 * 模拟一些 Windows 系统 OOBE 的最后部署阶段的动画
 
 [Windows 8 OOBE](https://suntrise.github.io/Win8OOBE.html) , [Windows 10 OOBE](https://suntrise.github.io/Win10OOBE.html)
