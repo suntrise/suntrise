@@ -1,4 +1,3 @@
-
 ### 项目
 * [YesMyFault(蓝屏生成器）](https://suntrise.github.io/yesmyfault)
 * [伪本地化翻译器 Demo](https://suntrise.github.io/pseudo)
