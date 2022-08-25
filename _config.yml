@@ -1,5 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-#theme: Minima
+theme: Minima
 #remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 title: Suntrise 的主页
