@@ -1,5 +1,3 @@
-## 欢迎！
-这里是 Suntrise (Also can call me STR) 的主页
 
 ### 项目
 * [YesMyFault(蓝屏生成器）](https://suntrise.github.io/yesmyfault)
