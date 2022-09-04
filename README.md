@@ -10,4 +10,5 @@
 * [一个Linux看了觉得很正常，但是Windows和DOS看了会非常开心的压缩包](https://suntrise.github.io/suntrise/happydos.tgz) by [IAmREGE](https://github.com/IAmREGE)
 
 ### 支持或联系
-页面有问题？查看我们的[文档](https://docs.github.com/categories/github-pages-basics/)或[联系支持人员](https://support.github.com/contact)，我们将帮助您解决问题。
+Github: [https://github.com/suntrise](suntrise)
+Bilibili: [https://space.bilibili.com/451475014](STR-BSOD)
