@@ -10,4 +10,6 @@
 ### 支持或联系
 Github: [https://github.com/suntrise](suntrise)
 
+知乎：[https://www.zhihu.com/people/suntrise](SUNTRISE)
+
 Bilibili: [https://space.bilibili.com/451475014](STR-BSOD)
