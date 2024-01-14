@@ -1,4 +1,3 @@
-## 欢迎
 主页：[Suntrise 的主页](https://suntrise.github.io)
 
 ### 项目
