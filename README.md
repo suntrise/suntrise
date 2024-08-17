@@ -16,7 +16,7 @@ An ordinary student. Hope to improve myself through continuous learning.
 
 Bilibili: [https://space.bilibili.com/451475014](STR-BSOD)
 
-## 📊数据 | Stats
+## 📊 数据 | Stats
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=suntrise&show_icons=true&theme=dark">
