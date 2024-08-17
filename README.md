@@ -7,7 +7,7 @@ An ordinary student. Hope to improve myself through continuous learning.
 
 ### 项目 | Projects
 * YesMyFault(蓝屏模拟器 | BSOD Simulator): [Click here](https://suntrise.github.io/yesmyfault)
-* 伪本地化演示 | Pseudo-localization Demo: [Click here](https://suntrise.github.io/pseudo) [程序(EXE)版](https://github.com/suntrise/Pseudo-localization-Demo)
+* 伪本地化演示 | Pseudo-localization Demo: [Click here](https://suntrise.github.io/pseudo) [Application](https://github.com/suntrise/Pseudo-localization-Demo)
 * 模拟 Windows OOBE 最后阶段的动画 | Windiows OOBE Animation made by HTML: [Click here](https://suntrise.github.io/project/OOBE/)
   
 ### 联系方式 | Contact
