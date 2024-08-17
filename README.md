@@ -1,17 +1,29 @@
-**简体中文 | [English](./README_EN.md)**<br>
+## 欢迎！| Welcome!
+我的网站 | My Website: [https://suntrise.github.io](https://suntrise.github.io)
 
-## 欢迎！
-主页：[Suntrise 的主页](https://suntrise.github.io)
-
-### 项目
-* [YesMyFault(蓝屏生成器）](https://suntrise.github.io/yesmyfault)
-* [伪本地化翻译器 Demo](https://suntrise.github.io/pseudo) [程序(EXE)版](https://github.com/suntrise/Pseudo-localization-Demo)
-* [模拟一些 Windows 系统 OOBE 的最后部署阶段的加载动画（可以当成屏保）](https://suntrise.github.io/project/OOBE/)
-* [一个Linux看了觉得很正常，但是Windows和DOS看了会非常开心的压缩包](https://suntrise.github.io/suntrise/happydos.tgz) by [IAmREGE](https://github.com/IAmREGE)
-
-### 支持或联系
-Github: [https://github.com/suntrise](suntrise)
+### 项目 | Projects
+* YesMyFault(蓝屏模拟器 | BSOD Simulator): [Click here](https://suntrise.github.io/yesmyfault)
+* 伪本地化演示 | Pseudo-localization Demo: [Click here](https://suntrise.github.io/pseudo) [程序(EXE)版](https://github.com/suntrise/Pseudo-localization-Demo)
+* 模拟 Windows OOBE 最后阶段的动画 | Windiows OOBE Animation made by HTML: [Click here](https://suntrise.github.io/project/OOBE/)
+  
+### 联系方式 | Contact
 
 知乎：[https://www.zhihu.com/people/suntrise](SUNTRISE)
 
 Bilibili: [https://space.bilibili.com/451475014](STR-BSOD)
+
+## 数据 | Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=suntrise&show_icons=true&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=suntrise&show_icons=true">
+  <img src="https://github-readme-stats.vercel.app/api?username=WhatDamon&show_icons=true">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=suntrise&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=suntrise">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suntrise">
+</picture>
+<br />
+
+You are my **![Visitor Count](https://profile-counter.glitch.me/suntrise/count.svg)** visitors!
