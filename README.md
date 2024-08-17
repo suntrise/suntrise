@@ -1,4 +1,6 @@
-## 欢迎
+**简体中文 | [English](./README_EN.md)**<br>
+
+## 欢迎！
 主页：[Suntrise 的主页](https://suntrise.github.io)
 
 ### 项目
