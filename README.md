@@ -1,5 +1,9 @@
 ## 欢迎！| Welcome!
-我的网站 | My Website: [https://suntrise.github.io](https://suntrise.github.io)
+我的网站 | My Website: [https://suntrise.github.io](https://suntrise.github.io)（zh-cn）
+
+### 关于我 | About Me
+一个普通的学生。希望通过不断学习提升自我。
+An ordinary student. Hope to improve myself through continuous learning.
 
 ### 项目 | Projects
 * YesMyFault(蓝屏模拟器 | BSOD Simulator): [Click here](https://suntrise.github.io/yesmyfault)
