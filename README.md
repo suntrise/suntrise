@@ -14,10 +14,9 @@ An ordinary student. Hope to improve myself through continuous learning.
 
 知乎：[SUNTRISE](https://www.zhihu.com/people/suntrise)
 
-Bilibili: [未定义字符串 STR](https://space.bilibili.com/451475014)
-
 少数派：[SUNTRISE](https://sspai.com/u/suntrise)
 
+Bilibili: [未定义字符串 STR](https://space.bilibili.com/451475014)
 ## 📊 数据 | Stats
 
 <picture>
