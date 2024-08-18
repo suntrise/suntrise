@@ -12,9 +12,11 @@ An ordinary student. Hope to improve myself through continuous learning.
   
 ### 📬 联系方式 | Contact
 
-知乎：[https://www.zhihu.com/people/suntrise](SUNTRISE)
+知乎：[SUNTRISE](https://www.zhihu.com/people/suntrise)
 
-Bilibili: [https://space.bilibili.com/451475014](STR-BSOD)
+Bilibili: [未定义字符串 STR](https://space.bilibili.com/451475014)
+
+少数派：[SUNTRISE](https://sspai.com/u/suntrise)
 
 ## 📊 数据 | Stats
 
