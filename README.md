@@ -32,4 +32,5 @@ Bilibili: [未定义字符串 STR](https://space.bilibili.com/451475014)
 </picture>
 <br />
 
-You are my **![Visitor Count](https://profile-counter.glitch.me/suntrise/count.svg)** visitors!
+## Vistors
+<div align="center"><img src="https://count.getloli.com/get/@jonm58?theme=gelbooru" alt="jonm58"></div>
