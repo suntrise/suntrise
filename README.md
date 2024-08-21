@@ -32,5 +32,5 @@ Bilibili: [未定义字符串 STR](https://space.bilibili.com/451475014)
 </picture>
 <br />
 
-## Vistors
+## 🔍 查看人数
 **![Visitor Count](https://profile-counter.glitch.me/suntrise/count.svg)**
