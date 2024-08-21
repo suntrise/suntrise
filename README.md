@@ -33,4 +33,4 @@ Bilibili: [未定义字符串 STR](https://space.bilibili.com/451475014)
 <br />
 
 ## Vistors
-<div align="center"><img src="https://count.getloli.com/get/@suntrise?theme=gelbooru" alt="suntrise"></div>
+**![Visitor Count](https://profile-counter.glitch.me/suntrise/count.svg)**
